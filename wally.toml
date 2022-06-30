@@ -1,0 +1,8 @@
+[package]
+name = "afrxo/glue-boilerplate"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Glue = "afrxo/glue@5.0.1"

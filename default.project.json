@@ -1,0 +1,49 @@
+{
+  "name": "Glue-Boilerplate",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "$ignoreUnknownInstances": true,
+
+      "Shared":{
+        "$path": "modules/shared"
+      },
+      
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+
+      "Bootstrap": {
+        "$path": "src/Server"
+      },
+      
+      "Modules":{
+        "$path": "modules/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+
+      "Modules": {
+        "$ignoreUnknownInstances": true,
+        "$path": "modules/client"
+      },
+
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "$className": "StarterPlayerScripts",
+        "Bootstrap": {
+          "$path": "src/Client"
+        }
+      }
+    }
+  }
+}
